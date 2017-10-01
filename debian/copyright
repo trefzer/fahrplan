@@ -1,0 +1,14 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fahrplan
+Upstream-Contact: Danilo Bargen and contributors <gezuru@gmail.com>
+Source: https://github.com/dbrgn/fahrplan
+
+Files: *
+Copyright: Danilo Bargen and contributors <gezuru@gmail.com>
+License: GPLv3
+
+Files: debian/*
+Copyright: 2017 © Benedikt Trefzer <benedikt.trefzer@cirrax.com>
+License: GPLv3
+
+License: GPLv3

@@ -1,0 +1,22 @@
+Source: fahrplan
+Section: python
+Priority: optional
+Maintainer: Benedikt Trefzer <benedikt.trefzer@cirrax.com>
+Build-Depends: debhelper (>= 10), dh-python,
+               python3-all,
+               python3-setuptools,
+Standards-Version: 3.9.8
+Homepage: https://github.com/dbrgn/fahrplan
+
+Package: python3-fahrplan
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+Recommends: ${python3:Recommends}
+Suggests: ${python3:Suggests}
+Description: SBB/CFF/FFS commandline based timetable client
+ Simple access to the SBB/CFF/FFS timetable service from the 
+ commandline with human readable argument parsing.
+ .
+ Relies on the public transport API by 
+ opendata.ch: http://transport.opendata.ch/
+ .
